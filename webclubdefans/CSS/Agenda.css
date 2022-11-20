@@ -1,0 +1,131 @@
+
+
+/* Tinc que repetir el common perque no se pero no s'ha aplica */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/tesla_model_y_2020_4k.jpg');
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .btn{
+    color: black;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+}
+
+.content{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.links{
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 30%;
+}
+
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 30px;
+}
+
+.links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+
+
+/* Aqui acaba el common --------------------------------------------------------------------------------------------------- */
+
+
+
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .row .mapa{
+    flex:1 1 42rem;
+    width: 100%;
+    padding:10rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+}
+
+.contact .row form{
+    padding:2rem;
+    flex:1 1 42rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.contact .row form h3{
+    font-size: 3rem;
+    color:var(--black);
+    padding-bottom: 1rem;
+}
+
+.contact .row form .box{
+    width:100%;
+    border-radius: .5rem;
+    padding:1rem 1.2rem;
+    font-size: 1.6rem;
+    text-transform: none;
+    border:var(--border);
+    margin:.7rem 0;
+}
+
+.contact .row form textarea{
+    height:15rem;
+    resize: none;
+}
